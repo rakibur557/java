@@ -1,8 +1,10 @@
 /*
+To use shortcut use shortcut and hit TAB or Ctrl + Space
 ShortCuts:
 duplicate: ctrl + Shift + DownAerrow
 To Print: sout
     println, print, printf
+main Function: psvm
 
 */
 
@@ -27,6 +29,7 @@ public class Myjavacode{
         
         //Printing with format specifier
         System.out.printf("int value of n = %d\n",n); //format specifier use (printf)
+        // int %d, double %.3f, char %c, boolean %b, float %f
         
     }
 }
