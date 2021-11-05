@@ -1,3 +1,10 @@
+/*
+ShortCuts:
+duplicate: ctrl + Shift + DownAerrow
+Print: sout
+
+*/
+
 package myjavacode;
 public class Myjavacode{
     public static void main(String[] args) {
