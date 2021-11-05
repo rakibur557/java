@@ -1,7 +1,8 @@
 /*
 ShortCuts:
 duplicate: ctrl + Shift + DownAerrow
-Print: sout
+To Print: sout
+    println, print, printf
 
 */
 
@@ -15,6 +16,18 @@ public class Myjavacode{
         // TO Print value of a variable use ( +variable_name )
         int num =10;
         System.out.println("num = "+num);
+        
+        //Data Tyyes:
+        boolean b= true; //dynamic initialization
+        int n = 10;
+        float f = 10.2f; // Always use "f" last of floating number
+        double d = 12.36;
+        char c = 'a';
+        short s = 2154;
+        
+        //Printing with format specifier
+        System.out.printf("int value of n = %d\n",n); //format specifier use (printf)
+        
     }
 }
         
