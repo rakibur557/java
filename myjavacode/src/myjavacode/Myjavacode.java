@@ -9,6 +9,7 @@ main Function: psvm
 */
 
 package myjavacode;
+import java.util.Scanner; // import this to use user input thus: scanner class
 public class Myjavacode{
     public static void main(String[] args) {
         System.out.println("Hello Java");
@@ -31,6 +32,17 @@ public class Myjavacode{
         System.out.printf("int value of n = %d\n",n); //format specifier use (printf)
         // int %d, double %.3f, char %c, boolean %b, float %f
         
+        //Input Section
+// create an object of Scanner
+Scanner input = new Scanner(System.in);
+
+// take input from the user
+int number = input.nextInt();
+         
+        System.out.println("You entered " + number);
+
+        // closing the scanner object
+        input.close();
     }
 }
         
